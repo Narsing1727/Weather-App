@@ -1,0 +1,130 @@
+*{
+  margin:0%;
+  padding:0%;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(135deg, #a18cd1, #fbc2eb);
+
+
+}
+.container{
+    background-image:linear-gradient(to bottom , #93c5fd , #2563eb) ;
+
+       width: 239px;
+    height: 470px;
+    border-radius: 20px;
+    
+}
+.date{
+   position: relative; 
+   top: 10%;
+   left: 28%;
+   color: rgba(255, 255, 255, 0.758);
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      /* text-shadow: 0 0 10px rgb(255, 255, 255); */
+}
+.city{
+     position: relative; 
+   top: 9px;
+   left: 35%;
+   color: whitesmoke;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: 900;
+   /* text-shadow: 0 0 10px rgba(222, 222, 232, 0.48); */
+}
+.image{
+     position: relative; 
+   top: 9px;
+   left: 35%;
+}
+.temp{
+         position: relative; 
+   top: 9px;
+   left: 32%;
+   color: whitesmoke;
+   font-family:monospace;
+   font-weight: 900;
+   font-size: 38px;
+   /* text-shadow: 0 0 10px rgba(222, 222, 232, 0.48); */
+}
+.sup{
+   position: relative; 
+   right: 2px;
+   top: 4px;
+   font-size: px;
+}
+.c{
+    position: relative;
+    right: 2px;
+}
+.type h3{
+         position: relative; 
+   top: 11px;
+   left: 39%;
+   color: whitesmoke;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: 900;
+   text-shadow: 0 0 10px rgba(222, 222, 232, 0.48);
+   
+}
+.type1{
+         position: relative; 
+   top: 11px;
+   left: 16%;
+   color: whitesmoke;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: 900;
+   text-shadow: 0 0 10px rgba(222, 222, 232, 0.48); 
+}
+.labels{
+         position: relative; 
+   top: 30px;
+   left: 3%;
+   color: #fcd34d;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-weight: 900;
+text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+}
+.select{
+    position: relative;
+    border-radius: 4px;
+    width: 70%;
+    left: 1px;
+    font-size: small;
+    background-color: #93c5fd;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+
+}
+.submit{
+      position: relative; 
+   
+   width: 90%;
+   height: 35px;
+   background-color: white;
+   margin-top: 19%;
+   margin-left: 4.9%;
+   color: rgb(42, 38, 38);
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-weight: 900;   
+   text-align: center;
+   line-height: 34px;
+   border-radius: 5px;
+   background-color: #00d0ffe2;
+   cursor: pointer;
+}
+.submit:hover {
+    opacity: 0.9;
+}
+.select:hover {
+    opacity: 0.9;
+}
+.options{
+    cursor: pointer;
+}
